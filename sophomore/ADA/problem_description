@@ -1,0 +1,33 @@
+Problem Discription: 
+
+P1: Maximum Subarray
+Input n and n integers, find Maximum Subarray.
+
+P2: Edit Distance
+Input string X, Y. Find the cost of transformation from X to Y. (transformation: 1.change X_i to c 2.erase X_i 3.insert c into X)
+
+P3: Huffman Code
+Input n as the size of a character set, and then input n integers f_0, f_1, ..., f_n, where f_i represents the frequency of occurence of the i'th character. Output n lines, i'th shows the encode of the i'th character. (need to implement prefix code so there won't exist any ambiguity)
+
+P4: Strongly Connected Component
+First line input n and m(vertices, edges). Next m lines input u,v (which means edge u->v). Output the number of vertex pair s.t.they are in SCC.
+
+P5: Minimum Spanning Tree
+First line input N, M(vertices, edges). Next M lines input a,b,c (which means edge a->b and weight c). Output the weight of the MST.(Using disjoint set with union by rank and path compression)
+
+P6: MAX-3-CNF-SAT
+I didn't finish it.
+
+P7: A+B
+No need to inform.
+
+P8~P11: https://cool.ntu.edu.tw/courses/31683/assignments/204440
+
+P12~P16: https://cool.ntu.edu.tw/courses/31683/assignments/204441
+
+P17,P18,P20: https://cool.ntu.edu.tw/courses/31683/assignments/204442
+
+P19: https://cool.ntu.edu.tw/courses/31683/assignments/204443
+
+
+

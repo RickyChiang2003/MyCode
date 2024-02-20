@@ -1,0 +1,50 @@
+---  start running(N=1)  ---
+
+real	0m2.333s
+user	0m2.150s
+sys	0m2.188s
+---  start running(N=2)  ---
+
+real	0m2.856s
+user	0m2.613s
+sys	0m3.267s
+---  start running(N=5)  ---
+
+real	0m26.391s
+user	0m17.392s
+sys	0m43.149s
+---  start running(N=10)  ---
+
+real	0m54.050s
+user	0m40.973s
+sys	2m13.354s
+---  start running(N=30)  ---
+
+real	2m4.024s
+user	1m11.059s
+sys	3m41.187s
+---  start running(N=50)  ---
+
+real	2m11.232s
+user	1m20.947s
+sys	4m38.994s
+---  start running(N=75)  ---
+
+real	1m51.557s
+user	1m21.124s
+sys	4m55.232s
+---  start running(N=100)  ---
+
+real	1m47.386s
+user	1m25.858s
+sys	5m30.229s
+---  start running(N=125)  ---
+
+real	1m38.709s
+user	1m24.531s
+sys	5m13.548s
+---  start running(N=150)  ---
+
+real	1m33.382s
+user	1m27.636s
+sys	5m39.815s
