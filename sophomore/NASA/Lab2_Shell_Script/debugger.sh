@@ -10,7 +10,7 @@ gcc -o gen $1
 gcc -o a $2
 gcc -o b $3
 time=$4
-for i in { 1 .. $time }; do
+for (( i=1; i<=${time}; i++ )); do
     ./gen $i > "in.txt"
     ./a < "in.txt" > out_a
     ./b < "in.txt" > out_b
