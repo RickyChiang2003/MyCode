@@ -1,0 +1,16 @@
+== Test thread package with public testcase part1-0 (10%) ==
+thread package with public testcase part1-0: FAIL (3.1s)
+    [Error] Output on line 5: 'usertrap(): unexpected scause 0x0000000000000002 pid=3', should be 'thread 2: 1'
+== Test thread package with public testcase part1-1 (10%) ==
+thread package with public testcase part1-1: FAIL (1.0s)
+    [Error] Output on line 5: 'usertrap(): unexpected scause 0x0000000000000002 pid=3', should be 'thread 2: 1'
+== Test thread package with public testcase part2-0 (5%) ==
+thread package with public testcase part2-0: FAIL (0.7s)
+    [Error] Output on line 2: 'thread 2: 0', should be 'task 2: 101'
+== Test thread package with public testcase part2-1 (5%) ==
+thread package with public testcase part2-1: FAIL (1.5s)
+    [Error] Output on line 3: 'thread 3: 10000', should be 'task 3: 0'
+== Test thread package with public testcase part2-2 (5%) ==
+thread package with public testcase part2-2: FAIL (0.5s)
+    [Error] Output on line 2: '$ qemu-system-riscv64: terminating on signal 15 from pid 646 (make)', should be 'task 1: 1'
+Score: 0/35
