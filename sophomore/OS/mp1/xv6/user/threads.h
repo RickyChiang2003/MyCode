@@ -15,6 +15,10 @@ struct thread {
     int ID;
     struct thread *previous;
     struct thread *next;
+    // task
+    int task_set;
+    int is_task;
+    struct thread *task_p;
 };
 
 struct thread *thread_create(void (*f)(void *), void *arg);
@@ -23,6 +27,7 @@ void thread_yield(void);
 void dispatch(void);
 void schedule(void);
 void thread_exit(void);
+void task_exit(void);
 void thread_start_threading(void);
 
 // part 2

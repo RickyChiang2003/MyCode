@@ -165,6 +165,7 @@ UPROGS=\
 	$U/_zombie\
 	$U/_setjmp\
 	$U/_threads\
+	$U/_threads_test\
 	$U/_mp1-part1-0\
 	$U/_mp1-part1-1\
 	$U/_mp1-part2-0\
