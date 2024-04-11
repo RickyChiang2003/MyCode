@@ -13,7 +13,7 @@ __multiAgents.py__ 是作業中唯一需要學生寫code的檔案(小精靈移�
 和hw1不太一樣的是，這次的作業內演算法並沒有超出課程範圍。雖然總共有五個區域要完成，但卻只用到了課堂上教的3組pseudocode：  __minimax演算法__ 、 __alpha-Beta pruning__ 、 __expectimax演算法__ ，Q1和Q5甚至根本沒用什麼演算法，學國小生思考如何在較好的state回傳較高的score即可。所以看完關於這三個演算法的影片，你就可以拿著pseudo code來看source code了，這次比較簡單。
 
 
-## 看題時的小提醒
+## 看 Q5 時的小提醒
 Q5會被跑在Q4上，Q4寫完才能寫Q5，並且Q5需參考117行的scoreEvaluationFunction。(下面是Q5簡介和理由)
 
 117行的scoreEvaluationFunction做的事情是輸入一個state，並回傳這個state的score (score越高代表輸入的state對小精靈而言越有利)。
