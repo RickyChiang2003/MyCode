@@ -19,8 +19,10 @@ import random, util
 from game import Agent
 from pacman import GameState
 
+"************************************ YOUR CODE HERE ************************************"
 MAXVALUE = 1000000000
 MINVALUE = -1000000000
+"************************************ YOUR CODE END *************************************"
 
 class ReflexAgent(Agent):
     """
@@ -110,6 +112,7 @@ class ReflexAgent(Agent):
         # prevent from stop
         if action == 'Stop': score -= 200
         return score+successorGameState.getScore()    
+        "************************************ YOUR CODE END *************************************"
 
 def scoreEvaluationFunction(currentGameState: GameState):
     """
@@ -200,6 +203,8 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 nextaction, localMin = action, curr_value
         
         return nextaction, (localMax if index==0 else localMin)
+    
+    "************************************ YOUR CODE END *************************************"
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
@@ -249,6 +254,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 beta = min(beta, localMin)
             
         return nextaction, (localMax if index==0 else localMin)
+    "************************************ YOUR CODE END *************************************"
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
@@ -295,6 +301,7 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
                 localExp += curr_value/numofMoves
         
         return nextaction, (localMax if index==0 else localExp)
+    "************************************ YOUR CODE END *************************************"
 
 def betterEvaluationFunction(currentGameState: GameState):
     """
@@ -319,6 +326,7 @@ def betterEvaluationFunction(currentGameState: GameState):
     score += 20/(closestFoodDis+1)
     #score -= (5 if closestGhostDis <= 1 else 0)
     return score
+    "************************************ YOUR CODE END *************************************"
 
 # Abbreviation
 better = betterEvaluationFunction
