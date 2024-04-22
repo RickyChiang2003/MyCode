@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 export LC_ALL=C
 
-
 error_input=0
 no_opt=1
 is_a=0
