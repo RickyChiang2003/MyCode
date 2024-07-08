@@ -17,7 +17,7 @@ NASA畢竟是門只有作業重要的課，這裡就整理了整個學期的作�
 ### HW2
 主題：shell script
 
-內容：單純的shell script，檢查輸入參數，並比較兩個資料夾的差異和相似度。語法問題主要參考 __[這篇](https://devhints.io/bash)__  。正確性有待商榷，雖然public是全AC，但不確定private結果，可能等以後作業成績公布再來看看。
+內容：單純的shell script，檢查輸入參數，並比較兩個資料夾的差異和相似度。語法問題主要參考 __[這篇](https://devhints.io/bash)__  。正確性有待商榷，雖然public是全AC，但因為繳交時碰到了windows結尾CTLF與LF的差異而在初次只拿到13分，相當燒雞。
 
 關鍵字：shell script、diff、getopts、binary file
 

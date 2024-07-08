@@ -10,9 +10,10 @@ __部落格建立與簡介__
 <!--more-->
 ## 前言
 
-我對於 __Github__ 本來就相當熟悉，再加上以前曾經自學過一點 __HTML__ 、__CSS__ 和 __Javascript__ 的撰寫，語法理解上也不會太困難，因此選擇了以 __Github__ 的內建功能 __Github pages__ 和一個由台灣人大大開發的靜態檔案產生器 __Hexo__ 。未來或許會再將它改成 __Github__ 推薦的 __[Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)__ 或是號稱跑速世界最快的 __[Hugo](https://gohugo.io/)__ 來玩玩看，但畢竟 __Hexo__ 的中文資源和主題還是比較契合一般架站的需求，又有幸滑到 __[@recode-0](https://www.youtube.com/@recode-0)__ 放在YT上簡單易懂的教學影片，直接就將我推進了 __Hexo__ 的坑。
+我對於 __Github__ 本來就相當熟悉，再加上以前曾經自學過一點 __HTML__ 、__CSS__ 和 __Javascript__ 的撰寫，語法理解上也不會太困難，因此建立部落格的工具我選擇了 __Github__ 的內建功能 __Github pages__ 和一個由台灣大大開發的靜態檔案產生器 __Hexo__ 。未來或許會再將它改成 __Github__ 推薦的 __[Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)__ 或是號稱跑速世界最快的 __[Hugo](https://gohugo.io/)__ 來玩玩看，但畢竟 __Hexo__ 的中文資源和主題還是比較契合一般架站的需求，又有幸滑到 __[@recode-0](https://www.youtube.com/@recode-0)__ 放在YT上簡單易懂的教學影片，直接就將我推進了 __Hexo__ 的坑。
 
-網路上關於 __Github pages__ 和 __Hexo__ 的教學多如牛毛，作為架站新手的我邊做邊學，學習速度也稱不上慢。在文裡打上教學細流也不是不行，但考慮到對於 __Github__ 和 __Hexo__ 的熟悉度，不如推薦大家先花十幾分鐘看看大大以有趣風格敘說的觀念簡介，然後再整理撰寫時需要注意的一些細節，順帶講講我目前最喜歡的主題 __[NexT](https://theme-next.js.org/docs/getting-started/)__ 。
+
+## 實作
 
 
 ## 實作細節

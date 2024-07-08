@@ -237,6 +237,14 @@ void setup() {
 
     // configure LED for output
     pinMode(LED_PIN, OUTPUT);
+
+
+    // button
+    Serial.begin(115200);
+    pingMode(D6, INPUT);
+
+
+    //
 }
 
 
@@ -246,6 +254,7 @@ void setup() {
 // ================================================================
 
 void loop() {
+
     // if programming failed, don't try to do anything
     if (!dmpReady) return;
 
@@ -297,6 +306,9 @@ void loop() {
             // display quaternion values in easy matrix form: w x y z
             mpu.dmpGetQuaternion(&q, fifoBuffer);
             Serial.print("quat\t");
+            bool b = digitalRead(D6);
+            Serial.print(b);
+            Serial.print("\t");
             Serial.print(q.w);
             Serial.print("\t");
             Serial.print(q.x);
